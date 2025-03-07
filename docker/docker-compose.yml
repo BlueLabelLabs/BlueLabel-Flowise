@@ -47,6 +47,7 @@ services:
             - REDIS_CERT=${REDIS_CERT}
             - REDIS_KEY=${REDIS_KEY}
             - REDIS_CA=${REDIS_CA}
+            - TOOL_FUNCTION_EXTERNAL_DEP=${TOOL_FUNCTION_EXTERNAL_DEP}
         ports:
             - '${PORT}:${PORT}'
         volumes:
